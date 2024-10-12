@@ -112,7 +112,7 @@ davlatlar = {
         "pul birligi": "rinngit",
     },
 }
-davlat = input('Davlatni kiriting: ')
+#davlat = input('Davlatni kiriting: ')
     
 #for davlat, info in davlatlar.items():
   
@@ -124,15 +124,338 @@ davlat = input('Davlatni kiriting: ')
     
     
         
-if davlat in davlatlar.keys():
-            info = davlatlar[davlat]
-      
-            print(f'\n{davlat.title()}ning poytaxti {info['poytaxt'].title()}'
-                  f'\n Hududi: {info['maydon']} kv.km'
-                  f'\n Aholisi: {info['aholi']}'
-                  f'\n Pul birligi: {info['pul birligi']}')
-else:
-    print('Bunaqa davlat yuq!')
+#if davlat in davlatlar.keys():
+#            info = davlatlar[davlat]
+#      
+#            print(f'\n{davlat.title()}ning poytaxti {info['poytaxt'].title()}'
+#                  f'\n Hududi: {info['maydon']} kv.km'
+#                  f'\n Aholisi: {info['aholi']}'
+#                  f'\n Pul birligi: {info['pul birligi']}')
+#else:
+#    print('Bunaqa davlat yuq!')
+
+
+
+#print('Sonni kvadratini hisoblash')
+##savol = 'sonni kiriting'
+#savol += "(agar qiymat 'exit' bulsa dastur tuxtaydi): "
+#qiymat = ''
+##while qiymat != 'exit':
+#    qiymat = input(savol)
+#    if qiymat != 'exit':
+#        print(f'{int(qiymat) ** 2}')
+        
+
+
+#ishora = True
+
+#while ishora:
+#    qiymat = input(savol)
+#    if qiymat == 'exit':
+ #       ishora = False
+  #  else:
+   #     print(f'{int(qiymat) ** 2}')
+        
+        
+        
+        
+#while True:
+#    qiymat = input(savol)
+#    if qiymat == 'exit':
+#        break
+#    else:
+#        print(f'{int(qiymat) ** 2}')
+ 
+
+
+#print('kitoblar haqida')
+
+#savol = "Yoqtirgan kitobingizni kiriting(agar 'exit' yozsangiz dastur tuxtaydi)"      
+
+#qiymat = ''
+
+
+#while qiymat.lower() != 'exit':
+ #   qiymat = input(savol)
+  #  if qiymat != 'exit':
+   #     print(f'mening yoqtirgan kitobim {qiymat}')
+        
+#print('STOP')
+
+
+
+
+
+
+#print('chiptaxona')
+
+
+
+#savol = 'yoshingizni kiriting agar exit yoki quit yozsangiz dastur tuxtaydi: '
+
+#qiymat = ''
+
+#while (qiymat != 'exit') and (qiymat != 'quit'):
+   # qiymat = input(savol)
+ #   if (qiymat != 'exit') and (qiymat != 'quit') and (int(qiymat) <= 7):
+  #      print('narxi 2000 som')
+   # elif (qiymat != 'exit') and (qiymat != 'quit') and (int(qiymat) > 7) and (int(qiymat) <= 18) :
+    #    print('Narxi 3000')
+#    elif (qiymat != 'exit') and (qiymat != 'quit') and (int(qiymat) > 18) and (int(qiymat) <= 65) :
+ #       print('narxi 100001')
+  #  elif (qiymat != 'exit') and (qiymat != 'quit') and (int(qiymat) > 65):
+   #     print('TEKIN')
+#print('dastur tuxtadi')
+
+
+
+
+
+
+
+
+
+# savol ="Kiritilgan sonning ildizini qaytaruvchi dastur.\n"
+# savol += "Musbat son kiriting "
+# savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+
+# while True:
+#     qiymat = input(savol)
+#     if qiymat=='exit':
+#         break
+#     elif int(qiymat)<0:
+       
+#         print(f'{qiymat} musbat son emas!')
+#         continue
+#     else:
+#         ildiz = float(qiymat)**(0.5)
+#         print(f"{qiymat} ning ildizi {ildiz} ga teng")
+
+# print('stop')
+
+
+# savol = 'mahsulotni kiriting agar enough ni kiritsangiz dasrtur tuxtaydi: '
+# mahsulotlar = []
+# ishora = True
+# qiymat = ''
+# n = 0
+
+
+# while ishora:
+#     n += 1
+    
+#     qiymat = (input(f'{n} - {savol}')) 
+#     if qiymat == 'enough':
+#         break
+#     else:    
+#         mahsulotlar.append(qiymat)
+        
+        
+# print(mahsulotlar)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# savol = 'mahsulotni kiriting agar enough ni kiritsangiz dasrtur tuxtaydi: '
+# savol1 = 'mahsulotni narxini kiriting: '
+# mahsulotlar = {}
+# ishora= True
+# key = ''
+# value=0
+# n = 0
+
+
+# while ishora:
+#     n += 1
+    
+#     key = (input(f'{n} - {savol}')) 
+    
+#     if key == 'enough' :
+#         ishora = False
+#     else:    
+#         value = (int(input(f'{n} - {savol1}')))
+#         mahsulotlar[key] = int(value)
+        
+
+# for n,m in mahsulotlar.items():
+#     print(f'{n}ning  narxi {m} som')
+
+# def age_cal(ismi, yoshi,joriy_yil = 2024):  
+
+    #     """Foydalanuvchini yoshini hisoblovchi funksiya"""
+#     print(f'{ismi}nign tugilgan yili - {joriy_yil - yoshi}')
+
+
+
+
+# # age_cal('ali', 27)
+
+
+
+# def sq_kub(son):
+#     """kub va kvadrat hisoblovchi funksiya"""
+#     print(f'{son ** 2} - {son ** 3}')
+
+# # sq_kub(5)
+# def qoldiq(son):
+#     """qoldiq tekshiradigan funksiya"""
+#     for n in range(2,11):
+#         if son % n == 0:
+#             print(f'{son} {n}ga qoldiqsiz bo`linadi. ')
+            
+# qoldiq(13)
+
+
+
+
+
+
+def malumot(ismi, familiyasi, tugilgan_yi, tugilgan_joyi, email_man = '', telefon_raqami = ''):
+    """malumot chiqatuvchi"""
+    malumotlar = {
+        'ismi': ismi,
+        'familiyasi': familiyasi,
+        'tugilgan_yil': tugilgan_yi,
+        'tugilgan_joy': tugilgan_joyi,
+        'email': email_man,
+        'telefon_raqam': telefon_raqami
+        }
+    return malumotlar
+    
+    # if email_man == False and telefon_raqami == False:
+    #     print(ismi,familiyasi,tugilgan_yi,tugilgan_joyi)
+    # elif email_man == True and telefon_raqami == False:
+    #     print(ismi,familiyasi,tugilgan_yi,tugilgan_joyi,email_man)
+    # elif email_man == False and telefon_raqami == True:
+    #     print(ismi,familiyasi,tugilgan_yi,tugilgan_joyi,telefon_raqami)
+    # else:
+    #     print(ismi,familiyasi,tugilgan_yi,tugilgan_joyi,email_man,telefon_raqami)
+        
+
+
+
+
+chiqar = malumot("jaxon", "abdirimov", 1998, "xorazm","dfghdfj", "941844214")
+
+print(chiqar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         
         
         
