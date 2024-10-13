@@ -362,9 +362,44 @@ def malumot(ismi, familiyasi, tugilgan_yi, tugilgan_joyi, email_man = '', telefo
 
 
 
-chiqar = malumot("jaxon", "abdirimov", 1998, "xorazm","dfghdfj", "941844214")
+# chiqar = malumot("jaxon", "abdirimov", 1998, "xorazm","dfghdfj", "941844214")
 
-print(chiqar)
+#print(chiqar)
+
+
+
+
+
+
+
+# ismlar = ['ali', 'vali', 'hasan', 'husan']
+# n = 0
+# def katta_harf(ism):
+#     ismlar1 = []
+#     while ism:
+#         katta = (ism.pop()).title()
+#         ismlar1.append(katta)   
+#     return ismlar1
+
+# ismlar2 = katta_harf(ismlar)
+# print(ismlar2)
+# print(ismlar)
+
+
+
+
+ismlar = ['ali', 'vali', 'hasan', 'husan']
+n = 0
+def katta_harf(ism):
+    ismlar1 = []
+    while ism:
+        katta = (ism.pop()).title()
+        ismlar1.append(katta)   
+    return ismlar1
+
+ismlar2 = katta_harf(ismlar[:])
+print(ismlar2)
+print(ismlar)
 
 
 
