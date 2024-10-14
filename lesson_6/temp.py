@@ -10,3 +10,4 @@ print(str(first_item) + " + " + str(secand_item) + " = ", first_item + secand_it
 print(str(first_item) + " * " + str(secand_item) + " = ", first_item * secand_item)
 print(str(first_item) + " // " + str(secand_item) + " = ", first_item // secand_item)
 print(str(first_item) + " % " + str(secand_item) + " = ", first_item % secand_item)
+
