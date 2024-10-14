@@ -41,13 +41,11 @@ def send_welcome(message):
 
 
 # matnlar uchun mas'ul funksiya
-@bot.message_handler(func=lambda s: msg.text is not None)
+@bot.message_handler(func=lambda msg: msg.text is not None)
 def translit(message):
     msg = message.text
     javob = lambda msg: to_cyrillic(msg) if msg.isascii() else to_latin(msg)
     bot.reply_to(message, javob(msg))
-
-
 bot.polling()
 
 
